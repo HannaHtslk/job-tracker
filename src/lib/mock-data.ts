@@ -1,7 +1,7 @@
 import type {Application} from "@/types/application"
 
 
-const applications: Application[] = [
+export const applications: Application[] = [
     {
         id: "1",
         company: "EPAM Systems",

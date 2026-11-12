@@ -21,7 +21,7 @@ export default async function ApplicationDetailPage({ params }: Props) {
 
   return (
     <main className="flex flex-col gap-6">
-      <Link href="/applications" className="self-start text-sm font-medium text-foreground/70 transition-colors hover:text-accent">
+      <Link href="/" className="self-start text-sm font-medium text-foreground/70 transition-colors hover:text-accent">
         ← Go back
       </Link>
 

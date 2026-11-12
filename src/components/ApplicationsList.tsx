@@ -1,9 +1,12 @@
-import {getApplications} from "@/lib/mock-data";
+import { Application } from "@/types/application";
 import Link from "next/link";
 
-function ApplicationsList() {
 
-    const applications = getApplications();
+type ApplicationsListProps = {
+    applications: Application[];
+}
+function ApplicationsList({ applications }: ApplicationsListProps) {
+
     return (
         <>
         <Link href="/applications/new" className="mb-6 self-start rounded-md bg-accent px-4 py-2 font-medium text-white shadow-sm transition-opacity hover:opacity-90">

@@ -1,4 +1,5 @@
 import type { Status } from "@/types/application";
+import { useEffect } from "react";
 
 export const statusStyles: Record<Status, string> = {
     applied: "bg-background text-foreground",
